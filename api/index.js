@@ -39,7 +39,7 @@ app.onError((err, c) => {
 })
 
 
-// app.route('/profile', profile)
+app.route('/profile', profile)
 
 app.get('/', (c) => {
 	const GLOBAL_REQUEST_CITY = c.get('GLOBAL_REQUEST_CITY')
