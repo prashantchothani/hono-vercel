@@ -5,7 +5,6 @@ const app = new Hono()
 app.get('/', (c) => { 
     
     const GLOBAL_REQUEST_CITY = c.get('GLOBAL_REQUEST_CITY')
-    console.log(GLOBAL_REQUEST_CITY)
     return c.json('list profile ' + GLOBAL_REQUEST_CITY)
 
 })
