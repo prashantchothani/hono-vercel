@@ -8,5 +8,6 @@
   },
   "devDependencies": {
     "vercel": "^34.2.0"
-  }
+  },
+  "type": "module"
 }
